@@ -1,0 +1,81 @@
+
+
+* {
+    font-family: 'Segoe UI', 'Open Sans', 'Droid', 'Ubuntu', sans-serif;
+    font-size: 9pt;
+}
+
+a {
+    text-decoration: underline
+}
+
+.incoming-sender,
+.outgoing-sender {
+    font-size: 10.5pt;
+    opacity: .5;
+    padding: 0 10px;
+}
+
+.outgoing-sender {
+    text-align: right
+}
+
+.content {
+    padding: 10px 15px
+}
+
+.stacked {
+    border-top: 1px dotted rgba(255, 255, 255, .33)
+}
+
+.time {
+    font-size: 8pt;
+    opacity: .67;
+    text-align: right;
+}
+
+.outgoing {
+    background: #ddd;
+    color: #000;
+}
+
+.outgoing:after,
+.incoming:before {
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 15px;
+}
+
+.outgoing:after {
+    border-color: #ddd transparent;
+    border-width: 10px 10px 0 0;
+    right: -10px;
+}
+
+.incoming,
+.outgoing {
+    margin: 5px 20px 25px;
+    position: relative;
+}
+
+.incoming,
+.incoming a {
+    color: #fff
+}
+
+.incoming:before {
+    border-color: red transparent;
+    border-width: 10px 0 0 10px;
+    left: -10px;
+}
+
+.status {
+    margin: 10px 20px 10px;
+    opacity: .5;
+}
+
+.status .message {
+    float: left;
+    width: 85%;
+}

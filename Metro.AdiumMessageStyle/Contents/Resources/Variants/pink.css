@@ -1,0 +1,13 @@
+@import url('../Main.css');
+
+.incoming {
+    background-color: #dc4fad;
+}
+
+.incoming:before {
+    border-top-color: #dc4fad;
+}
+
+.outgoing a {
+    color: #dc4fad !important;
+}
