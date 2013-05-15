@@ -1,7 +1,7 @@
 ## Intro
 This is a minimal Adium message style with touch of [Metro](http://en.wikipedia.org/wiki/Metro_%28design_language%29) design principles. Here is how it looks like (Empathy preview):
 
-![](https://dl.dropbox.com/u/1401886/img/metro-adium.png)
+![](https://drive.google.com/uc?export=view&id=0B-sCqfnhKgTLaXV5ZDdNb3NBQkE)
 
 It was only tested on Empathy, but should work on any program that supports Adium message styles (including Adium itself :)) Also, I recommend using [Open Sans](http://www.google.com/webfonts#UsePlace:use/Collection:Open+Sans) or [Droid Sans](http://www.google.com/webfonts#UsePlace:use/Collection:Droid+Sans) font, which are freely available from Google Web Fonts.
 
@@ -11,8 +11,8 @@ It was only tested on Empathy, but should work on any program that supports Adiu
 
     Easiest way is to run this (just paste to the terminal along with line breaks):
 
-        wget http://j.mp/metro-adium-dl -O [^] && mkdir -p ~/.local/share/adium/message-styles && \
-        tar -C $_ -xvzf [^] --strip=1 metro-adium-master/Metro.AdiumMessageStyle && rm [^]
+        cd && wget http://j.mp/metro-adium-dl -O [^] && mkdir -p .local/share/adium/message-styles && \
+        tar -C .local/share/adium/message-styles -xvzf [^] --strip=1 metro-adium-master/Metro.AdiumMessageStyle && rm [^]
 
     You can do the same manually: download and decompress [latest repository snapshot](http://j.mp/metro-adium-dl), then put `Metro.AdiumMessageStyle` to `~/.local/share/adium/message-styles`.
 
